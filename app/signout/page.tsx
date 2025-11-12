@@ -40,4 +40,8 @@ export default function SignOutPage() {
       </div>
     </main>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ea9e2d6688e47e1c4d59fffc1a7565b29d9c1ad6

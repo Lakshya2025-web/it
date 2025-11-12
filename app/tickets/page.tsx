@@ -48,9 +48,7 @@ export default function TicketsPage() {
       const updatedTickets = [...existingTickets, newTicket];
       localStorage.setItem("tickets", JSON.stringify(updatedTickets));
 
-      alert(
-        `🎟️ You bought ${quantity} ticket(s) for "${selectedEvent.title}" at ${selectedEvent.location}!`
-      );
+      alert(`🎟️ You bought ${quantity} ticket(s) for "${selectedEvent.title}" at ${selectedEvent.location}!`);
 
       setSelectedEvent(null);
       setQuantity(1);
